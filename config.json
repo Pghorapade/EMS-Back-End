@@ -1,0 +1,24 @@
+{
+    "dev": {
+      "domain": "http://localhost",
+      "dbPath": "mongodb://localhost:27017/",
+      "baseUrl": "/api",
+      "db": "login",
+      "port": 3000
+    },
+    "stage": {
+      "domain": "http://34.234.84.113",
+      "dbPath": "mongodb://localhost:27017/",
+      "baseUrl": "/api",
+      "db": "login",
+      "port": 3000
+    },
+    "prod": {
+      "domain": "http://localhost",
+      "dbPath": "mongodb://localhost:27017/",
+      "baseUrl": "/api",
+      "db": "login",
+      "port": 3000
+    },
+    "secret": "THIS IS USED TO SIGN AND VERIFY JWT TOKENS, REPLACE IT WITH YOUR OWN SECRET, IT CAN BE ANY STRING"
+  }
